@@ -58,6 +58,7 @@ export default function AuthPage() {
                   id="email"
                   name="email"
                   type="email"
+                  value={form.email}
                   onChange={changeHandler}
                 />
                 <label htmlFor="email">Email</label>
@@ -68,6 +69,7 @@ export default function AuthPage() {
                   id="password"
                   name="password"
                   type="password"
+                  value={form.password}
                   onChange={changeHandler}
                 />
                 <label htmlFor="password">Password</label>
