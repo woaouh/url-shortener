@@ -30,5 +30,5 @@ export default function LinkCard({ link }) {
 }
 
 LinkCard.propTypes = {
-  link: PropTypes.string.isRequired,
+  link: PropTypes.objectOf(PropTypes.any).isRequired,
 };
